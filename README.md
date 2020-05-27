@@ -24,7 +24,7 @@ byteArray, err := structworks.StructToBytes(a)
 * Convert `[]byte` back into structure
 ```go
 a := &Point{}
-byteArray = []byte{0, 112, 32, 12, 4, 5, 5, 6, 1, 22, 84, 92}
+byteArray := []byte{0, 112, 32, 12, 4, 5, 5, 6, 1, 22, 84, 92}
 err := BytesToStruct(byteArray, a)
 ```
 
